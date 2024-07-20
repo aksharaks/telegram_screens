@@ -11,7 +11,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   String initialCountry = 'US';
   PhoneNumber number = PhoneNumber(isoCode: 'US');
-  bool syncContacts = false; // Initial value for sync contacts toggle
+  bool syncContacts = false; // 
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             TextButton(
               onPressed: () {
-                // Implement your next functionality here
+               
               },
               child: const Text(
                 'Next',
