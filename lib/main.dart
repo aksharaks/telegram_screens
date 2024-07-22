@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/call_list.dart';
 import 'package:myapp/chat_screen.dart';
+import 'package:myapp/contact_info.dart';
 import 'package:myapp/contacts.dart';
 //import 'package:myapp/home_screen.dart';
 
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  CallListScreen (),
+      home:  ContactInfo (),
     );
   }
 }
